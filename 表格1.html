@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body background="1.png">
+		<table border="1" height="500" width="850">
+		<tr><th align="center" colspan="3"><h1><font color="blue">高考志愿表</font></h1></th></tr>
+		<tr><td>姓名：李洋</td><td rowspan="6" colspan="2"><img src="20180309170752817%20(2).jpg" height="350" width="600"></img></td></tr>
+		<tr><td>性别：<form action="save.php" method="post">
+		 <label>男</label>
+		 <input type="radio" value="1" name="gender">
+		 <label>女</label>
+		 <input type="radio" value="2" name="gender">
+		</form></td></tr>
+		<tr><td>本人信息：<input></input></td></tr>
+		<tr><td><form action="save.php" method="post" >
+    <label>名族:</label>
+    <select>
+      <option value="汉族">汉族</option>
+      <option value="傣族">傣族</option>
+      <option value="苗族">苗族</option>
+      <option value="其他">其他</option>
+    </select>
+	</form></td></tr>
+		<tr><td>年龄：18</td></tr>
+		<tr><td>特长：<input></input></td></tr>
+		<tr><td>第一志愿：<input></input></td><td>专业：<input></input></td>
+<td>是否服从调剂：<select><option value="是">是</option><option value="否">否</option></select></td></tr>
+		<tr><td>第二志愿：<input></input></td><td>专业：<input></input></td>
+<td>是否服从调剂：<select><option value="是">是</option><option value="否">否</option></select></td></tr>
+		<tr><td>第三志愿：<input></input></td><td>专业：<input></input></td>
+<td>是否服从调剂：<select><option value="是">是</option><option value="否">否</option></select></td></tr>
+		<tr><td>第四志愿：<input></input></td><td>专业：<input></input></td>
+<td>是否服从调剂：<select><option value="是">是</option><option value="否">否</option></select></td></tr>
+	</table><tr><input type="submit" value="提交" name="submitBtn" /></tr>
+	</body>
+</html>
